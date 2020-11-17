@@ -68,7 +68,7 @@ foreach ($response->getItems() as $id => $message) {
     print $message->getHtml()          . PHP_EOL; // HTML представления содержимого письма
     print $message->getAttachments()   . PHP_EOL; // Закрепленные к пиьсму файлы
 
-    // Для удобства получения отметки времени для дальнейшей работы с ней реализованы 2 дополнительных метода
+    // Для удобства получения отметки времени для дальнейшей работы с ней реализованы 2 доп. метода
     // getTime для получения отметки в виде Unix timestamp 
     print $message->getTime() . PHP_EOL; 
 
