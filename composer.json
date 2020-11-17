@@ -1,0 +1,21 @@
+{
+    "name": "vitaly-alexandrovich/afeg-client",
+    "description": "Library for afeg.ru API",
+    "version": "0.0.3",
+    "authors": [
+        {
+            "name": "Vitaly Dubovik",
+            "email": "dev.vitaly@gmail.com"
+        }
+    ],
+    "require": {
+        "vitaly-alexandrovich/http-client": "0.0.3",
+        "vitaly-alexandrovich/modeler": "dev-master",
+        "ext-json": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Afeg\\": "src/"
+        }
+    }
+}
